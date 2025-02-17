@@ -1,50 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="images/Copia de 18468c46.gif" type="image/x-icon">
-</head>
-<body>
-    <h1>título!!</h1>
-    <h2>subitítulo :3</h2>
-    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere tempora modi corporis quasi, esse a? Alias libero facere quia, explicabo soluta at est, minima, ipsam tempore aut cum doloribus consectetur! </p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <h1>Pedidos</h1>
 
-    <img width="500px" height="200px" src="images/Copia de 230c7fe6-59c3-438e-a994-a53d0444fae9.jpeg" alt="">
-    <h2>hola profe!!</h2>
-    <p>me da risa ver la foto tan aplastada</p>
+    <div class="juanito">
+        <form>
+            <div class="mb-3">
+              <label for="modelo" class="form-label">Modelo</label>
+              <input type="text" class="form-control" id="modelo">
+            </div>
+            <div class="mb-3">
+              <label for="color" class="form-label">Color</label>
+              <input type="text" class="form-control" id="color">
+            </div>
+            <div class="mb-3">
+                <label for="tamaño" class="form-label">Tamaño</label>
+                <input type="text" class="form-control" id="tamaño">
+              </div>
+            <button type="button" class="btn btn-primary" onclick="resultado()">Realizar pedido</button>
+            <h4 id="mostrar"></h4>
+          </form>
+    </div>
+    
+    <script src="script.js"></script>
 
-    <h1>eco</h1>
-    <h2>ecoo</h2>
-    <h3>ecooo</h3>
-    <h4>ecoooo</h4>
-    <h5>ecooooo</h5>
-    <h6>ecoooooo</h6>
-
-    <h3>lista de personas que me gustan</h3>
-
-    <ol>
-        <li>camilo</li>
-        <li>samuel</li>
-        <li>camilo medrano</li>
-        <li>samuel martinez (????)</li>
-        <li>camilo samuel medrano martínez my one and only</li>
-        <li>el que me vio el cuaderno QUE DECIA CAMILO CON CORAZONES &#128557;</li>
-        <li>el profe de mate de nivel 7 en la sabatina y nivel 5 en el fdtc</li>
-        <li>el que estudia ingenieria en sistemas</li>
-        <li>el que va por el 4to año de su carrera....</li>
-        <li>el que salio del camus en 2021</li>
-        <li>el que estuvo en el pjt</li>
-        <li>el que tiene 20</li>
-        <li>el que NO tiene novia</li>
-        <li>el que sabe jugar ajedrez</li>
-        <li>el que su mami se llama xiomara medrano :3 o eso creo...</li>
-        <li>el que tiene un hermano que se llama daniel!</li>
-        <li>el que tiene como usuario c.s.medrano en ig</li>
-        <li>el que tiene como numero de telefono <strong>7848-0774</strong></li>
-        <li>elk tiene como numero de dui <strong>06791455-3</strong> :3</li>
-        <li>el amor de mi vida bb</li>
-    </ol>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
