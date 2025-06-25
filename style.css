@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-color: rgb(255, 205, 178);
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    height: 100vh;
+}
+
+.nombre{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Spicy Rice", serif;
+    font-size: xx-large;
+    color: rgb(109, 104, 117);
+}
+
+.navegacion{
+    font-family: "Smythe", system-ui;
+    font-size: x-large;
+    color: rgb(109, 104, 117);
+    grid-column: 1/12;
+    grid-row: 3/4;
+    display: flex;
+    background-color: rgb(255, 180, 162);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navegacion p{
+    display: flex;
+    gap: 100px;
+}
